@@ -1,0 +1,14 @@
+
+[build]
+  command = "hugo"
+  publish = "public"
+
+[context.deploy-preview]
+  command = "hugo"
+  [context.production.environment]
+  HUGO_VERSION = "0.20.7"
+
+# Deploy Preview context: All Deploy Previews
+# will inherit these settings.
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.20.7"
