@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: gutorov/internal-netlify-cms
+  repo: Gutorov/netlify-cms
   branch: master
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
